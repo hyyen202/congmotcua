@@ -22,6 +22,7 @@ Route::post('/dangnhap', [LoginbygoogleController::class, 'dangnhap']);
 // login by google
 Route::get('auth/google', [LoginbygoogleController::class, 'redirectToGoogle'])->name('loginbygoogle');
 Route::get('auth/google/callback', [LoginbygoogleController::class, 'handleGoogleCallback']);
+
 Route::middleware(['checklogin::class'])->group(function () {
     //load menu 
     Route::get('/sidebar', [MenuController::class, 'sidebar']);
@@ -31,6 +32,8 @@ Route::middleware(['checklogin::class'])->group(function () {
         Route::get('/loadname', [MenuController::class, 'loadname']);
         Route::post('loadpage/{idmn}', [MenuController::class, 'loadpage']);
     });
+    
+
     //
     Route::prefix('/qltk')->group(function () {
         Route::get('/', [AccountsController::class, 'index']);
@@ -44,10 +47,8 @@ Route::middleware(['checklogin::class'])->group(function () {
         Route::get('loadUser_Menus_Roles/{id}', [AccountsController::class, 'loadUser_Menus_Roles']);
         Route::post('capnhatquyen', [AccountsController::class, 'capnhatquyen']);
     });
-    
+
 
 });
-Route::get('user',[
-    UserController::class,
-    'index'
-]);
+
+Route::get('user',[ UserController::class, 'index']);

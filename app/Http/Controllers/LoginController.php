@@ -13,7 +13,7 @@ class LoginController extends Controller
 {
     function login()
     {
-        return view('login.login');
+        return view('login.loginUser');
     }
     function dangnhap(Request $a)
     {

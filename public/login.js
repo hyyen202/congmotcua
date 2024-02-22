@@ -19,7 +19,7 @@ function login() {
         },
         success: function (res) {
             if (res == 1) {
-                window.location.href = "http://congmotcua.ctuet.edu.vn:8080/";
+                window.location.href = "http://congmotcua.ctuet.edu.vn:8080/user";
             } else {
                 toastr.warning("Đăng nhập không thành công");
 
