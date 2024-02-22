@@ -1,0 +1,110 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+  color: #0047a5; }
+
+.main {
+  padding: 0 2%;
+  color: #0047a5; }
+
+/*header - footer - logo*/
+.logo {
+  width: 5rem;
+  height: 5rem; }
+
+.text-logo {
+  margin-left: 7px;
+  font-size: 15px;
+  color: #0047a5; }
+
+.ctuet {
+  font-weight: bold; }
+
+.nav-item > a {
+  color: #0047a5;
+  font-weight: bold; }
+
+.larger-icon {
+  font-size: 25px; }
+
+.button-footer > a {
+  color: #ffffff; }
+
+/*content - main*/
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.register-container {
+  border: 2px solid #d3d3d3bb;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: auto;
+  transition: box-shadow 0.3s, background-color 0.3s, transform 0.3s;
+  /* Thêm hiệu ứng transition */ }
+
+.register-container div {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  /* Kích thước chữ cố định cho màn hình lớn hơn */ }
+
+@media (max-width: 768px) {
+  .register-container div {
+    font-size: 2.5vw;
+    /* Chuyển sang sử dụng vw khi màn hình nhỏ hơn 768px */ } }
+
+/* Hiệu ứng khi rê chuột vào */
+.register-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  /* Phóng to */ }
+
+/* Hiệu ứng khi click vào */
+.register-container:active {
+  background-color: #f0f0f0;
+  transform: scale(0.95);
+  /* Thu nhỏ */ }
+
+.container > div {
+  padding: 15px 0; }
+
+.container div {
+  padding: 4px 0; }
+
+form p {
+  font-size: 14px; }
+
+@media (max-width: 768px) {
+  form p {
+    font-size: 2vw;
+    /* Chuyển sang sử dụng vw khi màn hình nhỏ hơn 768px */ } }
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.form-register button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.input-group {
+  max-width: 500px; }
+
+.form-register span {
+  display: inline-block;
+  /* Đảm bảo span không bị nằm xuống dòng mới */
+  margin: 5px; }
+
+.form-register input {
+  margin: 5px; }

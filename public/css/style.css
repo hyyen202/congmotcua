@@ -1,0 +1,139 @@
+
+body{
+    font-size: 14px;
+}
+
+/* .font_fix{
+    font-size: 10px;
+} */
+
+
+.error{
+    color: red;
+    text-align: right;
+    width: 100% "
+}
+
+.numbers{
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    border: none;
+}
+
+.input-custom{
+    background-color: inherit;
+    color: black;
+    font-weight: bold;
+    border: none;
+    text-align: right;
+    width: 100%;
+}
+
+.load{
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.table td{
+    padding: 0;
+    width: fit-content;
+}
+
+.table th{
+    padding: 0;
+    text-align: center;
+    /* background-color: #343a40;
+    color: #fff; */
+}
+
+input{
+    height: 30px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered{
+    margin-top: -8px;
+    padding-left: 0px;
+}
+
+.select2-selection select2-selection--single{
+    height: 30px;
+}
+
+.select_background{
+    background-color: #ececec;
+    /* background-color:  red; */
+}
+
+.row_odd{
+    background-color: RGBA( 105, 105, 105, 0.1 );
+    /* background-color:  red; */
+}
+
+.blur{
+    z-index: 10;
+    background-color: rgba(0, 0, 255, 0.2);
+    /* filter: blur(4px); */
+}
+
+.blur{
+    top: 0px;
+    left: 0px;
+    height:  100%;
+    width: 100%;
+    filter: blur(5px);
+}
+
+
+.blur1{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height:  100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index:9999;
+}
+
+.login-box{
+    position: fixed;
+    margin: auto;
+    z-index:10001;
+}
+
+
+
+.logo_login{
+    position: fixed;
+    margin-top: -350px;
+    height:  40%;
+    z-index:10001;
+}
+/* body{
+
+    background-image: url('https://xettuyentest.ctuet.edu.vn/images/locksreen/h1.jpg');
+} */
+
+/* figure.zoom {
+    background-position: 100% 100%;
+    position: relative;
+    width: 500px;
+    overflow: hidden;
+    cursor: zoom-in;
+} */
+
+    /* figure.zoom img:hover {
+        opacity: 0;
+    } */
+
+    /* figure.zoom img {
+        transition: opacity 0.5s;
+        display: block;
+        width: 100%;
+    } */
+

@@ -1,0 +1,66 @@
+
+/* html,
+body {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 20px;
+    background: #eee;
+    font-family: myfont;
+    color:red;
+} */
+
+/* @font-face {
+    font-family: myfont;
+    src: url(Roboto-Regular.woff);
+} */
+
+/* .loader{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 3px;
+    margin: 0px;
+    background: #e53935;
+    animation: loader 5s;
+    animation-fill-mode: both;
+    /* -webkit-user-select:none; */
+    /* z-index: 9999; */
+/* } */
+
+/* @keyframes loader{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 22%;
+    }
+    50%{
+        width: 55%;
+    }
+    75%{
+        width: 83%;
+    }
+    100%{
+        width: 100%;
+    } */
+
+/* } */
+
+/* .loader1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* z-index: 9999; */
+    /* background:#0C0C0C url('https://xettuyentest.ctuet.edu.vn/img/Loading.gif'); */
+    /* color: #FFF; */
+    /* display: none;
+    font: 0/0 a;
+    text-shadow: none;
+    padding: 1em 1.2em; */
+/* } */
+
+
+
