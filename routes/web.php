@@ -52,3 +52,5 @@ Route::middleware(['checklogin::class'])->group(function () {
 });
 
 Route::get('user',[ UserController::class, 'index']);
+Route::get('logout',[UserController::class,'logout']);
+Route::get('contact',[UserController::class,'contact']);

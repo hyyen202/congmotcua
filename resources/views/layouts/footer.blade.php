@@ -4,7 +4,7 @@
         <div class="text-footer" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <span class="title-sh" >TRƯỜNG ĐẠI HỌC KỸ THUẬT - CÔNG NGHỆ CẦN THƠ</span></br>
             <span>Địa chỉ: 256 Nguyễn Văn Cừ, Quận Ninh Kiều, Thành phố Cần Thơ</span></br>
-            <span>Email:phongdaotao@ctuet.edu.vn </span>
+            <span>Email:pdt@ctuet.edu.vn </span>
         </div>
         <div class="button-footer d-flex justify-content-center"> <!-- Thêm lớp d-flex và justify-content-center để căn giữa -->
             <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 larger-icon" href="https://www.facebook.com/CTUT.CT" role="button">
