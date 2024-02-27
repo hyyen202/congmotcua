@@ -41,7 +41,8 @@ button {
 .title {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  color: var(--blue); }
 
 .register-container {
   border: 2px solid #d3d3d3bb;
@@ -78,12 +79,6 @@ button {
   background-color: #f0f0f0;
   transform: scale(0.95);
   /* Thu nhỏ */ }
-
-.container > div {
-  padding: 15px 0; }
-
-.container div {
-  padding: 4px 0; }
 
 form p {
   font-size: 14px; }
@@ -138,7 +133,6 @@ form p {
   position: relative; }
 
 .big-logo {
-  font-size: 22px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -149,3 +143,14 @@ form p {
 
 .ctuet {
   white-space: nowrap; }
+
+.responsive-image {
+  width: 100%;
+  /* Chiếm toàn bộ chiều rộng của phần tử cha */
+  max-width: 600px;
+  /* Đặt giới hạn kích thước tối đa */ }
+
+@media (max-width: 768px) {
+  .responsive-image {
+    max-width: 100%;
+    /* Đối với màn hình nhỏ hơn, sử dụng toàn bộ chiều rộng của màn hình */ } }

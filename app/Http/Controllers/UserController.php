@@ -16,5 +16,7 @@ class UserController extends Controller
     public function contact(){
         return redirect('https://pdaotao.ctuet.edu.vn/');
     }
-    
+    public function register(Request $request){
+        return view('register.index');
+    }
 }

@@ -23,6 +23,7 @@ Route::post('/dangnhap', [LoginbygoogleController::class, 'dangnhap']);
 Route::get('auth/google', [LoginbygoogleController::class, 'redirectToGoogle'])->name('loginbygoogle');
 Route::get('auth/google/callback', [LoginbygoogleController::class, 'handleGoogleCallback']);
 
+/*
 Route::middleware(['checklogin::class'])->group(function () {
     //load menu 
     Route::get('/sidebar', [MenuController::class, 'sidebar']);
@@ -50,7 +51,12 @@ Route::middleware(['checklogin::class'])->group(function () {
 
 
 });
+*/
+Route::middleware(['checklogin::class'])->group(function () {
+    Route::get('/',[ UserController::class, 'index']);
+    Route::get('logout',[LogoutController::class,'logout'])->name('logout');
+    Route::get('contact',[UserController::class,'contact']);
+    Route::get('register',[UserController::class, 'register']);
 
-Route::get('user',[ UserController::class, 'index']);
-Route::get('logout',[UserController::class,'logout']);
-Route::get('contact',[UserController::class,'contact']);
+
+});

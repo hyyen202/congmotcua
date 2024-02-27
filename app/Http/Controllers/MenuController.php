@@ -76,4 +76,6 @@ class MenuController extends Controller
         $name = DB::table('accounts')->where("id", Auth::guard('loginbygoogle')->id())->get();
         return $name[0]->name;
     }
+
+   
 }
