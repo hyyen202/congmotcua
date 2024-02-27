@@ -39,6 +39,10 @@
             @include('user.infor')
         </div>
         <span> * Nếu bị sai thông tin, sinh viên vui lòng liên hệ Phòng Đào Tạo để được hỗ trợ</span>
+
+        
+          
+        
     </div>
     
 </section>
