@@ -163,4 +163,12 @@ height: 100%;
 .progress-bar {
     border-radius: 0 !important;
 }
+.info-card {
+    padding-top: 10px; /* Điều chỉnh giá trị theo mong muốn */
+    padding-bottom: 10px; /* Điều chỉnh giá trị theo mong muốn */
+}
 
+.carousel-control-prev, .carousel-control-next{
+    top:50%;
+    box-shadow: none;
+}

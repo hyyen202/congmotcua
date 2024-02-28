@@ -54,9 +54,12 @@ Route::middleware(['checklogin::class'])->group(function () {
 */
 Route::middleware(['checklogin::class'])->group(function () {
     Route::get('/',[ UserController::class, 'index']);
-    Route::get('logout',[LogoutController::class,'logout'])->name('logout');
+    Route::get('main',[ UserController::class, 'main']);
     Route::get('contact',[UserController::class,'contact']);
     Route::get('register',[UserController::class, 'register']);
+    Route::get('recents',[UserController::class,'recents']);
 
+    Route::get('logout',[LogoutController::class,'logout'])->name('logout');
+    
 
 });
