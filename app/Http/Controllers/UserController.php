@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     //
-    public function index(Request $request){
+    public function index(){
         return view('user.index');
     }
     public function main(){
@@ -17,16 +17,15 @@ class UserController extends Controller
     public function contact(){
         return redirect()->away('https://pdaotao.ctuet.edu.vn/');
     }
-    public function register(Request $request){
-       if(($request->ajax())){
+    public function register()
+    {
         return view('register.index');
-       }else{
-        return view('/');}
+       
     }
-    public function recents(Request $request){
-       if($request->ajax()){
+    public function recents(){
         return view('user.recents');
-       }else{
-        return view('/');}
+    }
+    public function profile(){
+        return redirect()->away('https://sinhvien.ctuet.edu.vn/sinh-vien-dang-nhap.html');
     }
 }

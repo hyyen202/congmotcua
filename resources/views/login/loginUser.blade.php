@@ -22,8 +22,8 @@
                   <div class="col-12 col-md-9 col-lg-6 col-xl-5 d-flex align-items-center justify-content-center text-center">
                       <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Logo_ctuet.png" class="img-fluid" alt="CTUET Logo">
                       <div class="text-logo big-logo">
-                        <span class="d-block text-lg">Cổng thông tin sinh viên</span>
-                        <span class="d-block text-md ctuet">TRƯỜNG ĐẠI HỌC KỸ THUẬT - CÔNG NGHỆ CẦN THƠ</span>                        
+                        <span class="d-block text-lg mb-3">Cổng thông tin sinh viên</span>
+                        <span class="d-block text-md ctuet mb-3">TRƯỜNG ĐẠI HỌC KỸ THUẬT - CÔNG NGHỆ CẦN THƠ</span>                        
                       </div>
                   </div>
 

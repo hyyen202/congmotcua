@@ -164,6 +164,37 @@ form p {
   padding-bottom: 10px;
   /* Điều chỉnh giá trị theo mong muốn */ }
 
+/* user.profile*/
 .carousel-control-prev, .carousel-control-next {
   top: 50%;
   box-shadow: none; }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); }
+
+/* Ngắn lại chiều cao của các thẻ row */
+/* Ngắn lại chiều cao của các thẻ row */
+.row {
+  line-height: 0;
+  /* Điều chỉnh giá trị tùy theo nhu cầu */ }
+
+/* Thêm điều kiện cho màn hình lớn hơn 768px */
+@media (min-width: 768px) {
+  .row {
+    line-height: 1.8;
+    /* Điều chỉnh giá trị tùy theo nhu cầu */ } }
+
+.pd {
+  padding-left: 0; }
+
+.lbl-info {
+  font-size: 0.9rem; }
