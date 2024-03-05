@@ -19,8 +19,8 @@
         <div id="wrapper">
 
             <!-- Main -->
-                <div id="main">
-                    <div class="inner">
+                <div id="main" >
+                    <div class="inner" >
                         <!-- Header -->
 
                         @include('layouts.header')
@@ -37,6 +37,7 @@
                     @include('user.sidebar')
                 </div>
 
+                
         </div>
         @include('layouts.footer')
 </body>

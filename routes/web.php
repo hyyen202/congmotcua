@@ -64,6 +64,8 @@ Route::middleware(['checklogin::class'])->group(function () {
         Route::get('profile',[UserController::class,'profile']);
 
     });
+
+    
     Route::prefix('/qltk')->group(function () {
         Route::get('/', [AccountsController::class, 'index']);
         Route::get('list_accounts', [AccountsController::class, 'list_accounts']);
