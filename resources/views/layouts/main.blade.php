@@ -5,9 +5,10 @@
     <div class="content">
         <div id="pageAjax" class="row">
             <div class="col-md-4">
+                
+                <h3 class="text-center title">KIỂM TRA TÌNH TRẠNG GIẤY TỜ<br /></h3>
                 <form method="post" action="#">
                     <div class="row gtr-uniform">
-                        <h3 class="text-center title">KIỂM TRA TÌNH TRẠNG GIẤY TỜ<br /></h3>
                         <!-- Break -->
                         <div class="col-12 ">
                             <select name="demo-category" id="demo-category">
@@ -42,10 +43,8 @@
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-7 row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     @include('register.index')
-                </div>
-                <div class="col-12">
                     @include('user.info')
                 </div>
                 

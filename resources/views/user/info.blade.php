@@ -1,7 +1,7 @@
 
-        <div class="row row-cols-1 row-cols-sm-2">
+        <div class="row row-cols-1 row-cols-sm-2" style="line-height: 1rem;">
             <!-- Thông tin cá nhân -->
-            <div class="col-sm-6 ">
+            <div class="col-md-6 ">
                 <div class="row gutters-sm">
                     <!-- Thông tin chi tiết -->
                     <div class="col-md-12">
@@ -51,10 +51,18 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-4">
-                                        <h6 class="text-secondary">Địa chỉ</h6>
+                                        <h6 class="text-secondary">Quê quán</h6>
                                     </div>
                                     <div class="col-8 ">
                                        <h6>Ba Trinh, Kế Sách, Sóc Trăng</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6 class="text-secondary">Địa chỉ</h6>
+                                    </div>
+                                    <div class="col-8 ">
+                                       <h6>Mậu Thân, Xuân Khánh, Ninh Kiều, Cần Thơ</h6>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -87,7 +95,7 @@
                 </div>
             </div>
             <!-- Slide -->
-            <div class="col-sm-6 row">
+            <div class="col-md-6">
                 <div class="col-md-12">
                     <div class="card mb-3">
                         <div class="card-body">
@@ -151,10 +159,10 @@
                     </div>
                 </div>
                 
-            <div class="row">
-                <div class="row" > * Nếu bị sai thông tin, sinh viên vui lòng liên hệ Phòng Đào Tạo để được hỗ trợ</div>
             </div>
-            
+            <div class="col-sm-12 mt-3 ">
+                * Nếu bị sai thông tin, sinh viên vui lòng liên hệ Phòng Đào Tạo để được hỗ trợ
+           </div>
             
         </div>
 
@@ -166,6 +174,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <style>
+       
         .carousel-control-prev, .carousel-control-next{
             top:50%;
             box-shadow: none;

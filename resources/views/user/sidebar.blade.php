@@ -4,16 +4,15 @@
             <img src={{asset('storage/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png')}} alt="avatar">
         </div>
         <div class="user-name-phone">
-            <div class="user-name">Trung</div>
-            <div class="phone">0919161845</div>
+            <div class="user-name">Hong Yen Nguyen</div>
+            <span class="text-secondary ">MSSV: </span>
+            <span class="phone">2101198</span>
+            </br>
+            <span class="text-secondary">SĐT: </span>
+            <span class="phone">0919161845</span>
         </div>
     </div>  
-    <ul>
-        <li><span>Mã sinh viên:</span>
-            <span style ="font-weight: 700;"> 2100073</span>
-        </li>
-        
-    </ul>
+    <p></p>
 <!-- Menu -->
     <nav id="menu">
         <!-- <header class="major">
