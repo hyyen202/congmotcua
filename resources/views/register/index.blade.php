@@ -7,10 +7,10 @@
                     <div class="col-5">
                         <select name="register-type-category" id="register-type-category">
                             <option value="">- Chọn loại giấy -</option>
-                            <option value="1">Manufacturing</option>
-                            <option value="2">Shipping</option>
-                            <option value="3">Administration</option>
-                            <option value="4">Human Resources</option>
+                            <option value="1">Nghĩa vụ quân sự</option>
+                            <option value="2">Vay vốn</option>
+                            <option value="3">Bảng điểm</option>
+                            <option value="4">Bảng sao bằng tốt nghiệp</option>
                         </select>
                     </div>
                     <!-- Second Selection -->

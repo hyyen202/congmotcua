@@ -1,15 +1,33 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\DB;
 class UserController extends Controller
 {
     //
     public function index(){
-        return view('user.index');
+    
+        $user = DB::table('thongtinsinhvien')
+        ->where('id_account', 1)
+        ->get();
+        // Trả về view 'user.index' với dữ liệu user
+        return view('user.index')->with('user', $user)
+        ->with('sidebar', view('user.sidebar')->with('user', $user)->render());
+                
+                
     }
+    public function sidebar(){
+        $user = DB::table('thongtinsinhvien')
+        ->where('id_account',1)
+        ->get();
+        return view('user.sidebar',['user'=>$user]);
+
+    }
+    
+    
+
     public function main(){
         return view('layouts.main');
     }
@@ -17,15 +35,9 @@ class UserController extends Controller
     public function contact(){
         return redirect()->away('https://pdaotao.ctuet.edu.vn/');
     }
-    public function register()
-    {
-        return view('register.index');
-       
-    }
+   
     public function recents(){
         return view('user.recents');
     }
-    public function profile(){
-        return redirect()->away('https://sinhvien.ctuet.edu.vn/sinh-vien-dang-nhap.html');
-    }
+  
 }

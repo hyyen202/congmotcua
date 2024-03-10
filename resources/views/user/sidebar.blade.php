@@ -4,12 +4,12 @@
             <img src={{asset('storage/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png')}} alt="avatar">
         </div>
         <div class="user-name-phone">
-            <div class="user-name">Hong Yen Nguyen</div>
+            <div class="user-name">{{$user[0]->hodem}} {{$user[0]->ten}}</div>
             <span class="text-secondary ">MSSV: </span>
-            <span class="phone">2101198</span>
+            <span class="phone">{{$user[0]->mssv}}</span>
             </br>
-            <span class="text-secondary">SĐT: </span>
-            <span class="phone">0919161845</span>
+            <span class="text-secondary">CCCD: </span>
+            <span class="phone">{{$user[0]->cmnd}}</span>
         </div>
     </div>  
     <p></p>

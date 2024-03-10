@@ -2116,7 +2116,8 @@ button,
       position: absolute;
       text-indent: 0;
       top: 0;
-      width: inherit; }
+      width: inherit; 
+      color:#545454}
   #sidebar.inactive {
     margin-left: -26em; }
   @media screen and (max-width: 1680px) {
@@ -2214,10 +2215,10 @@ button,
     text-align: right; }
   @media screen and (max-width: 1680px) {
     #header {
-      padding-top: 5em; } }
+      padding-top: 1em; } }
   @media screen and (max-width: 736px) {
     #header {
-      padding-top: 6.5em; }
+      padding-top: 1em; }
       #header .logo {
         font-size: 1.25em;
         margin: 0; }

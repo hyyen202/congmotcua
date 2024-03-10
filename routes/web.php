@@ -52,33 +52,16 @@ Route::middleware(['checklogin::class'])->group(function () {
 
 });
 */
-Route::middleware(['checklogin::class'])->group(function () {
+Route::middleware(['checklogin'])->group(function () {
     
+    Route::get('/sidebar', [UserController::class, 'sidebar']);
     
     Route::prefix('/')->group(function () {
-        Route::get('/',[ UserController::class, 'main']);
-        Route::get('contact',[UserController::class,'contact']);
-        Route::get('register',[UserController::class, 'register']);
-        Route::get('recents',[UserController::class,'recents']);
-        Route::get('register',[UserController::class, 'register']);
-        Route::get('profile',[UserController::class,'profile']);
-
+        Route::get('/', [UserController::class, 'index']);
+        Route::get('contact', [UserController::class, 'contact']);
+        Route::get('register', [UserController::class, 'register']);
+        Route::get('recents', [UserController::class, 'recents']);
     });
 
-    
-    Route::prefix('/qltk')->group(function () {
-        Route::get('/', [AccountsController::class, 'index']);
-        Route::get('list_accounts', [AccountsController::class, 'list_accounts']);
-        Route::post('Add_accounts', [AccountsController::class, 'Add_accounts']);
-        Route::post('delete_accounts/{id}', [AccountsController::class, 'delete_accounts']);
-        Route::get('edit_accounts/{id}', [AccountsController::class, 'edit_accounts']);
-        Route::post('update_accounts', [AccountsController::class, 'update_accounts']);
-        Route::get('change_pass/{id}', [AccountsController::class, 'change_pass']);
-        Route::post('update_change', [AccountsController::class, 'update_change']);
-        Route::get('loadUser_Menus_Roles/{id}', [AccountsController::class, 'loadUser_Menus_Roles']);
-        Route::post('capnhatquyen', [AccountsController::class, 'capnhatquyen']);
-    });
-
-    Route::get('logout',[LogoutController::class,'logout'])->name('logout');
-
+    Route::get('logout', [LogoutController::class, 'logout'])->name('logout');
 });
