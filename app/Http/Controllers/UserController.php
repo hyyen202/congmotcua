@@ -8,23 +8,23 @@ class UserController extends Controller
 {
     //
     public function index(){
-    
-        $user = DB::table('thongtinsinhvien')
-        ->where('id_account', 1)
-        ->get();
-        // Trả về view 'user.index' với dữ liệu user
-        return view('user.index')->with('user', $user)
-        ->with('sidebar', view('user.sidebar')->with('user', $user)->render());
+        return view('user.index');
+        // $user = DB::table('thongtinsinhvien')
+        // ->where('id_account', 1)
+        // ->get();
+        // // Trả về view 'user.index' với dữ liệu user
+        // return view('user.index')->with('user', $user)
+        // ->with('sidebar', view('user.sidebar')->with('user', $user)->render());
                 
                 
     }
-    public function sidebar(){
-        $user = DB::table('thongtinsinhvien')
-        ->where('id_account',1)
-        ->get();
-        return view('user.sidebar',['user'=>$user]);
+    // public function sidebar(){
+    //     $user = DB::table('thongtinsinhvien')
+    //     ->where('id_account',1)
+    //     ->get();
+    //     return view('user.sidebar',['user'=>$user]);
 
-    }
+    // }
     
     
 

@@ -2117,7 +2117,7 @@ button,
       text-indent: 0;
       top: 0;
       width: inherit; 
-      color:#545454}
+      color:#ffffff}
   #sidebar.inactive {
     margin-left: -26em; }
   @media screen and (max-width: 1680px) {
@@ -2176,13 +2176,13 @@ button,
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: #7f888f;
+        color: #ffffff;
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
         z-index: 1; }
       #sidebar .toggle:after {
-        background: rgba(222, 225, 226, 0.75);
+        background: rgba(255, 255, 255, 0.75);
         border-radius: 0.375em;
         content: '';
         height: 3.5em;
@@ -2197,7 +2197,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #0047a5;
+  border-bottom: solid 3px #80808029;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {

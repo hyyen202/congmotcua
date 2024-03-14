@@ -1,4 +1,4 @@
-<div class="col-md-4">
+<div class="col-md-4 mt">
     <h3 class="text-center title">KIỂM TRA TÌNH TRẠNG GIẤY TỜ<br /></h3>
     <form method="post" action="#">
         <div class="row gtr-uniform">
@@ -34,11 +34,10 @@
         </div>
     </form>
 </div>
-<div class="col-md-1"></div>
 <div class="col-md-7 row">
-    <div class="col-sm-12">
-        @include('register.index')
-        @include('user.info')
+    <div class="col-sm-12 mt1">
+            @include('register.index')
+            @include('user.info')
     </div>
     
 </div>

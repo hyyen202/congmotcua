@@ -1,5 +1,5 @@
-<header id="header" class="d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center">
-  <a href="#" class="d-flex flex-column align-items-center">
-    <img class="logo" src="https://ctuet.edu.vn/View/assets/images/logo.png">
-  </a>
+<header id="header" class="d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center" style="background-color: #0047a5">
+  <div class="d-flex flex-column align-items-center">
+    CỔNG THÔNG TIN MỘT CỬA
+  </div>
 </header>

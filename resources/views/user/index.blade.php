@@ -1,11 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<section id="banner">
+<section id="banner" style="padding: 5px 0;">
     <div class="content">
-        <div id="pageAjax" class="row">
-
-            <div class="col-md-4">
+        <div id="pageAjax" class="justify-content-center row">
+            <div class="col-md-4 mt">
                 <h3 class="text-center title">KIỂM TRA TÌNH TRẠNG GIẤY TỜ<br /></h3>
                 <form method="post" action="#">
                     <div class="row gtr-uniform">
@@ -14,9 +13,9 @@
                             <select name="demo-category" id="demo-category">
                                 <option value="">- Loại giấy tờ -</option>
                                 <option value="1">Nghĩa vụ quân sự</option>
-                                <option value="1">Bảng điểm tạm thời</option>
-                                <option value="1">Giấy vay vốn</option>
-                                <option value="1">Bản sao bằng tốt nghiệp</option>
+                                <option value="2">Bảng điểm tạm thời</option>
+                                <option value="3">Giấy vay vốn</option>
+                                <option value="4">Bản sao bằng tốt nghiệp</option>
                             </select>
                         </div>
                         
@@ -33,32 +32,50 @@
                             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item image-container active">
-                                        <img class="form-xac-nhan" src="https://sv.ump.edu.vn/Media/2_SVYDS/Images/cap-giay-xac-nhan-sv2ac8b754-8-e.PNG" class="d-block w-100" alt="...">
+                                        <img class="form-xac-nhan pop" src="https://sv.ump.edu.vn/Media/2_SVYDS/Images/cap-giay-xac-nhan-sv2ac8b754-8-e.PNG" data-image="https://sv.ump.edu.vn/Media/2_SVYDS/Images/cap-giay-xac-nhan-sv2ac8b754-8-e.PNG" class="d-block w-100" alt="...">
                                     </div>
+                                    <!-- Add more carousel items with unique images and data-image attribute -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="col-md-1"></div>
             <div class="col-md-7 row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 mt1">
                     @include('register.index')
                     @include('user.info')
                 </div>
                 
             </div>
-           
+        </div>
+    </div>
+    
+    <!-- Hiển thị zoom -->
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thông tin sinh viên</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    {{-- Slide Card --}}
+                    @include('user.card')
 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
 
 @endsection
+
 <style>
+    
        /* layouts.main */
    /* test checkout-bar */
    .checkout-process-bar {
@@ -164,4 +181,5 @@
     .row{
         --bs-gutter-x: 0;
     }
+    
 </style>

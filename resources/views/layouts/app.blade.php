@@ -20,11 +20,12 @@
 
             <!-- Main -->
                 <div id="main" >
+                    @include('layouts.header')
+
                     <div class="inner" >
                         <!-- Header -->
 
-                        @include('layouts.header')
-
+                        
                         <!-- Section -->
 
                         @yield('content')

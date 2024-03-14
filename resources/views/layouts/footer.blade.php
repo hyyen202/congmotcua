@@ -1,22 +1,41 @@
-<footer class="text-center bg-body-tertiary">
-    <!-- Copyright -->
-    <div class="p-3" style="background-color: #0047a5; color:#ffff">
-        <div class="text-footer" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <span class="title-sh" >TRƯỜNG ĐẠI HỌC KỸ THUẬT - CÔNG NGHỆ CẦN THƠ</span></br>
-            <span>Địa chỉ: 256 Nguyễn Văn Cừ, Quận Ninh Kiều, Thành phố Cần Thơ</span></br>
-            <span>Email:pdt@ctuet.edu.vn </span>
+<footer class="footer fixed-bottom" style="background-color: rgb(115, 134, 159);">
+
+  <!-- Copyright - Bootstrap Brain Component -->
+  <div class="py-2  border-top border-light-subtle">
+    <div class="container overflow-hidden">
+      <div class="row gy-4 gy-md-0 align-items-center justify-content-center"> <!-- Thêm align-items-center để căn giữa nội dung -->
+        <div class="col-xs-12 col-md-7 order-1 order-md-0 ">
+          <div class="copyright text-center justify-content-center small">
+            &copy; Trường Đại Học Kỹ Thuật Công Nghệ Cần Thơ.
+          </div>
+          <div class=" text-center justify-content-center  fs-7 mb-3 small">
+            Địa chỉ: 256 Đ. Nguyễn Văn Cừ, An Hoà, Ninh Kiều, Cần Thơ
+          </div>
+          
         </div>
-        <div class="button-footer d-flex justify-content-center"> <!-- Thêm lớp d-flex và justify-content-center để căn giữa -->
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 larger-icon" href="https://www.facebook.com/CTUT.CT" role="button">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 larger-icon" href="https://www.ctuet.edu.vn/" role="button">
-                <i class="fa-brands fa-google"></i>
-            </a>
+
+        <div class="col-xs-12 col-md-5">
+          <ul class="nav justify-content-center ">
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://web.facebook.com/CTUT.CT/?locale=vi_VN&_rdc=1&_rdr">
+                  <i class="fab fa-facebook fa-2x" style="color:aliceblue"></i>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://ctuet.edu.vn">
+                  <i class="fab fa-google fa-2x"style="color:aliceblue"></i>
+                </a>
+              </li>
+            </ul>
+            
         </div>
+      </div>
     </div>
-    <!-- Copyright -->
+  </div>
+
 </footer>
+
 
 <!-- Scripts -->
 <script src="assets/js/browser.min.js"></script>

@@ -1,15 +1,15 @@
 <div class="inner">
     <div class="user-infor"> 
         <div class="user-avatar">
-            <img src={{asset('storage/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png')}} alt="avatar">
+            <img src={{asset('storage/female_woman_person_people_avatar_icon_159367.png')}} alt="avatar">
         </div>
         <div class="user-name-phone">
-            <div class="user-name">{{$user[0]->hodem}} {{$user[0]->ten}}</div>
+             <div class="user-name">{{--{{$user[0]->hodem}} {{$user[0]->ten}}--}}Hong Yen Nguyen</div> 
             <span class="text-secondary ">MSSV: </span>
-            <span class="phone">{{$user[0]->mssv}}</span>
+            <span class="phone">{{--{{$user[0]->mssv}}--}} 2101198</span>
             </br>
             <span class="text-secondary">CCCD: </span>
-            <span class="phone">{{$user[0]->cmnd}}</span>
+            <span class="phone">{{--{{$user[0]->cmnd}}--}}12345678</span>
         </div>
     </div>  
     <p></p>
