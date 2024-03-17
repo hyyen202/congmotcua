@@ -18,6 +18,9 @@ button {
   width: 4rem;
   height: 4rem; }
 
+.name {
+  color: #ffffff; }
+
 .text-logo {
   margin-left: 7px;
   font-size: 13px;
@@ -203,23 +206,34 @@ form p {
   color: #ffffff; }
 
 .mt {
-  padding-right: 2rem;
-  border-radius: 4px;
-  border: 2px solid #dbdbdb; }
-
-.mt1 {
-  padding-left: 0;
-  border-radius: 4px;
-  border: 2px solid #dbdbdb; }
+  padding: 1rem !important;
+  border-radius: 5px;
+  border: 1.5px solid #eeededa1;
+  margin: 1rem !important;
+  height: 100%;
+  box-shadow: 0 1px 3px 0 rgba(113, 115, 119, 0.336); }
 
 @media (min-width: 992px) {
-  .mt1 {
+  .mt {
     padding-left: 0;
-    border-radius: 4px;
-    border: 2px solid #dbdbdb;
-    margin: 5px 3rem; } }
+    border-radius: 5px;
+    border: 1.5px solid #eeededa1;
+    margin: 1rem;
+    height: 100%;
+    box-shadow: 0 1px 3px 0 rgba(113, 115, 119, 0.336); } }
 
 @media only screen and (max-width: 767px) {
   /* Thiết lập padding bằng 3 cho phần footer */
   .copyright {
-    padding: 1rem !important; } }
+    padding: 1rem !important; }
+  .pad {
+    padding-left: 0 !important; } }
+
+.row {
+  --bs-gutter-x: 0 !important; }
+
+#wrapper {
+  margin-bottom: 5rem !important; }
+
+.bg-logo {
+  background-color: rgba(76, 125, 232, 0.988); }

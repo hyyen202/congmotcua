@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
-  margin: 0 0 1em 0; }
+  margin: 0 0 0.5rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none;
@@ -968,7 +968,7 @@ hr {
             padding-top: 0.75em; }
       .row {
         margin-top: 0;
-        margin-left: -1.5em; }
+        margin-left: 0; }
         .row > * {
           padding: 0 0 0 1.5em; }
         .row.gtr-uniform {
@@ -1017,7 +1017,7 @@ header.main > :last-child {
 
 /* Form */
 form {
-  margin: 0 0 2em 0; }
+  margin: 0 0 0.2em 0; }
 
 label {
   color: #3d4449;
@@ -1073,7 +1073,7 @@ select {
   background-size: 1.25em;
   background-repeat: no-repeat;
   background-position: calc(100% - 1em) center;
-  height: 2.75em;
+  height: 2em;
   padding-right: 2.75em;
   text-overflow: ellipsis; }
   select option {
@@ -1091,7 +1091,7 @@ input[type="tel"],
 input[type="search"],
 input[type="url"],
 select {
-  height: 2.75em; }
+  height: 2em; }
 
 textarea {
   padding: 0.75em 1em; }
@@ -1624,9 +1624,9 @@ button,
   font-family: "Roboto Slab", serif;
   font-size: 0.8em;
   font-weight: 700;
-  height: 3.5em;
+  height: 2.5em;
   letter-spacing: 0.075em;
-  line-height: 3.5em;
+  /* line-height: 3.5em; */
   padding: 0 2.25em;
   text-align: center;
   text-decoration: none;
@@ -1977,7 +1977,7 @@ button,
   flex-shrink: 1;
   width: 100%; }
   #main > .inner {
-    padding: 0 6em 0.1em 6em ;
+    padding: 0 1em 0.1em 1em ;
     margin: 0 auto;
     max-width: 110em; }
     #main > .inner > section {
@@ -1987,17 +1987,17 @@ button,
         border-top: 0 !important; }
   @media screen and (max-width: 1680px) {
     #main > .inner {
-      padding: 0 5em 0.1em 5em ; }
+      padding: 0 1em 0.1em 1em ; }
       #main > .inner > section {
         padding: 5em 0 3em 0 ; } }
   @media screen and (max-width: 1280px) {
     #main > .inner {
-      padding: 0 4em 0.1em 4em ; }
+      padding: 0 1em 0.1em 1em ; }
       #main > .inner > section {
         padding: 4em 0 2em 0 ; } }
   @media screen and (max-width: 736px) {
     #main > .inner {
-      padding: 0 2em 0.1em 2em ; }
+      padding: 0 1em 0.1em 1em ; }
       #main > .inner > section {
         padding: 3em 0 1em 0 ; } }
 
@@ -2107,6 +2107,7 @@ button,
       text-transform: none !important;
       font-family: 'Font Awesome 5 Free';
       font-weight: 900; }
+      
     #sidebar .toggle:before {
       content: '\f0c9';
       font-size: 2rem;
@@ -2137,7 +2138,8 @@ button,
         text-indent: 5em;
         width: 5em; }
         #sidebar .toggle:before {
-          font-size: 1.5rem; }
+          font-size: 1.5rem;
+    }
       #sidebar.inactive {
         margin-left: -24em; } }
   @media screen and (max-width: 1280px) {

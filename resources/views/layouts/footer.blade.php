@@ -1,10 +1,10 @@
-<footer class="footer fixed-bottom" style="background-color: rgb(115, 134, 159);">
+<footer class="footer fixed-bottom bg-logo">
 
   <!-- Copyright - Bootstrap Brain Component -->
   <div class="py-2  border-top border-light-subtle">
     <div class="container overflow-hidden">
       <div class="row gy-4 gy-md-0 align-items-center justify-content-center"> <!-- Thêm align-items-center để căn giữa nội dung -->
-        <div class="col-xs-12 col-md-7 order-1 order-md-0 ">
+        <div class="col-xs-12 col-md-7 order-1 order-md-0 mt-0 ">
           <div class="copyright text-center justify-content-center small">
             &copy; Trường Đại Học Kỹ Thuật Công Nghệ Cần Thơ.
           </div>
@@ -14,7 +14,7 @@
           
         </div>
 
-        <div class="col-xs-12 col-md-5">
+        <div class="col-xs-12 col-md-5 mt-0">
           <ul class="nav justify-content-center ">
               <li class="nav-item">
                 <a class="nav-link link-dark" href="https://web.facebook.com/CTUT.CT/?locale=vi_VN&_rdc=1&_rdr">

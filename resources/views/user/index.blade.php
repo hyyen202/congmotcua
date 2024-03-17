@@ -41,8 +41,8 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-7 row">
-                <div class="col-sm-12 mt1">
+            <div class="col-md-7 row mt">
+                <div class="col-sm-12 pad">
                     @include('register.index')
                     @include('user.info')
                 </div>
