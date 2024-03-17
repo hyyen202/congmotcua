@@ -4,7 +4,7 @@
             <div class="col-md-6 pad">
                 <div class="row gutters-sm">
                     <!-- Thông tin chi tiết -->
-                    <div class="col-md-12">
+                    <div class="col-md-12 pd-0">
                         <div class="card mb-3">
                             <div class="card-body">
 
@@ -13,7 +13,7 @@
                                     <div class="col-4 pad">
                                     <h6 class="text-secondary">Tên</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary"> Hong Yen Nguyen</h6>
                                     </div>
                                 </div>
@@ -21,7 +21,7 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">Email</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary"> admin@email.com</h6>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">Ngày sinh</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary">01-01-2005</h6>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">Giới tính</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary">Nữ</h6>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">SDT</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary">0867499319</h6>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">Quê quán</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary">Ba Trinh, Kế Sách, Sóc Trăng</h6>
                                     </div>
                                 </div>
@@ -61,15 +61,15 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">Địa chỉ</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary">Mậu Thân, Xuân Khánh, Ninh Kiều, Cần Thơ</h6>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-4 pad">
-                                        <h6 class="text-secondary">Nghành</h6>
+                                        <h6 class="text-secondary">Ngành</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l ">
                                        <h6 class="text-secondary">Công nghệ thông tin</h6>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">Khóa</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l">
                                        <h6 class="text-secondary">2021-2025</h6>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@
                                     <div class="col-4 pad">
                                         <h6 class="text-secondary">Bậc đào tạo</h6>
                                     </div>
-                                    <div class="col-8 ">
+                                    <div class="col-8 pd-l ">
                                        <h6 class="text-secondary">Đại học chính quy</h6>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <!-- Slide -->
-            <div class="col-md-6 ">
+            <div class="col-md-6 pd ">
                 <div class="col-md-12">
                     <div class="card mb-3">
                         <div class="card-body">
@@ -103,7 +103,7 @@
                                 <div class="col-4 pad">
                                     <h6 class="text-secondary">Lớp</h6>
                                 </div>
-                                <div class="col-8 ">
+                                <div class="col-8 pd-l">
                                     <h6 class="text-secondary">CNTT0121</h6>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                                 <div class="col-4 pad">
                                     <h6 class="text-secondary">MSSV</h6>
                                 </div>
-                                <div class="col-8 ">
+                                <div class="col-8 pd-l">
                                     <h6 class="text-secondary">2101198</h6>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@
                                 <div class="col-4 pad">
                                     <h6 class="text-secondary">Trạng thái</h6>
                                 </div>
-                                <div class="col-8 ">
+                                <div class="col-8 pd-l">
                                     <h6 class="text-secondary">Đang học</h6>
                                 </div>
                             </div>

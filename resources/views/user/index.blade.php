@@ -169,7 +169,7 @@
 
     .image-container img {
     width: 100%; 
-    height: auto; 
+    height: 20rem; 
     display: block; 
     }
     /* form xac nhan */
